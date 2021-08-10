@@ -1,0 +1,9 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "FUNCTIONS_WORKER_RUNTIME": "python",
+      "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=storageaccountudaci9f4a;AccountKey=TAj83ukVJyQJH1XIq1iv53EWQ146xDk84lbBgDq/YmSKI/cFCPbd2ZBnqDHiff67Wqz3g1hPJJVH54KgSxRw4Q==;EndpointSuffix=core.windows.net",
+      "SENDGRID_API_KEY": "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", 
+      "AzureWebJobsServiceBus" : "Endpoint=sb://udacityproj3.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=X5Bnp8B+fe9B0v66KcFJU7Y9IxHWlfI6DCMMS4J+Wr8="
+    }
+  }
