@@ -63,9 +63,15 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 
 | Azure Resource | Service Tier | Monthly Cost |
 | ------------ | ------------ | ------------ |
-| *Azure Postgres Database* |     |              |
-| *Azure Service Bus*   |         |              |
-| ...                   |         |              |
+| *Azure Postgres Database* | Basic Tier | $33 |
+| *Azure Service Bus*   | Basic Tier | $0.05 |
+| *Storage Account* | Queue Storage | $0.05 |
+| *App Service* | Consumption Tire | $13.14 |
+| *Azure Function* | Basic Tier | $0.00 |
+|   | Total : | $46.25 |
+
 
 ## Architecture Explanation
-This is a placeholder section where you can provide an explanation and reasoning for your architecture selection for both the Azure Web App and Azure Function.
+- The web application is scalable to handle user load at peak. I have used the App Service to do it rather tham VM
+- The function app is scalable. When the admin sends out notifications, there will not be HTTP timeout exceptions. The flow is smooth with minimal or no error.
+- The architecture is cost-effective. All the services are reasonably priced.
